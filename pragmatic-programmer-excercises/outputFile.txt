@@ -1,0 +1,7 @@
+doSelectPen(2)
+doPenDown()
+doPenDir(2)
+doPenDir(1)
+doPenDir(2)
+doPenDir(1)
+doPenUp()
