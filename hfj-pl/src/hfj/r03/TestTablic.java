@@ -31,4 +31,3 @@ class TestTablic{
 		} // while 
 	} // main 
 } // class
-//str.88: poprawki literowek; cw. test tablic; program dziala poprawnie;
