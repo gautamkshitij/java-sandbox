@@ -1,6 +1,6 @@
 bin/
 build/
-dest/
+dist/
 effective-java/
 hello-ant/
 hello-aspectj/
