@@ -19,9 +19,10 @@ class Hobbici{
   String imie;
   public static void main(String[] args){
     Hobbici[] h = new Hobbici[3];
-    int z=0;
-    while(z<3){
-      h[z]=new Hobbici();
+    int z=-1;
+    while(z<2){
+      z=z+1;
+	  h[z]=new Hobbici();
       h[z].imie="Bilbo";
       if(z==1){
         h[z].imie="Frodo";
@@ -31,7 +32,6 @@ class Hobbici{
       }
       System.out.print(h[z].imie + " jest ");
       System.out.println("dobrym imieniem dla hobbita");
-      z=z+1;
     }
   }
 }
