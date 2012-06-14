@@ -9,10 +9,12 @@ while(x<10){
 
 // fragment Leszka
 Kontakt odwk;
-while(x<10){ // twor // FIXME
-	kn[x]=new Kontakt()
+while(x<10){ // tworzymy 10 odwolan obiektow
+	odwk = new Kontakt();
 	x=x+1;
 }
+// wykonujemy zlozona aktualizacje listy kontaktow 
+// poslugujac sie odwolaniem odwk
 
 
 PYTANIE: Dlaczego Zuzanna wybrala metode 
