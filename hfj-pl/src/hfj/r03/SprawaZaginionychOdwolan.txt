@@ -1,0 +1,25 @@
+// fragment Roberta
+Kontakt[] kn = new Kontakt()
+while(x<10){
+	kn[x]=new Kontakt()
+	x=x+1;
+}
+// aktualizujemy liste Kontaktow 
+// poslugujac sie tablica kn
+
+// fragment Leszka
+Kontakt odwk;
+while(x<10){ // twor // FIXME
+	kn[x]=new Kontakt()
+	x=x+1;
+}
+
+
+PYTANIE: Dlaczego Zuzanna wybrala metode 
+Roberta, a nie Leszka, skoro to wlasnie metoda
+Leszka wykorzystywala mniej pamieci?
+
+ODPOWIEDZ: dlatego, ze metoda Leszka
+nie byla zgodna ze specyfikacja. pod koniec
+wywolania jego metody program ma dostep
+tylko do jednego obiektu.
