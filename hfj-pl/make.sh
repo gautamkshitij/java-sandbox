@@ -1,7 +1,7 @@
 #Build script
 
 #cd into the home directory - so you can run the script from vim or anywhere else
-cd ~/dev/workspace/java/sandbox/hfj-excercises/ 
+cd ~/dev/workspace/java/sandbox/hfj-pl/ 
 
 #Clean up
 rm -rf build/*
@@ -12,7 +12,7 @@ cd src
 
 #Now compile - note the use of a seperate lib (in non-dex format!)
 echo Compile the java code
-javac -verbose -d ../build/ hfj/r03/$1.java 
+javac -verbose -d ../build/ hfj/r04/$1.java 
 
 #Back out
 cd ..
