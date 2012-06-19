@@ -5,7 +5,9 @@ class Tester{
 	}
 	void idz(){
 		Tester t = new Tester();
-		t.dwaParametry(12,34);
+		int arg1=7;
+		int arg2=3;
+		t.dwaParametry(arg1,arg2);
 	}
 	void dwaParametry(int x, int y){
 		int z = x+y;
