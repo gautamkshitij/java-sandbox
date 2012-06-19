@@ -11,5 +11,8 @@ class PiesTester{
 			pierwszy.szczekaj();
 			drugi.szczekaj();
 			trzeci.szczekaj();
+
+			Pies p = new Pies();
+			p.szczekaj(3);
 	}
 }

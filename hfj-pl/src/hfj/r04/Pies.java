@@ -11,4 +11,10 @@ class Pies{
 			System.out.println("Hiau! Hiau!");
 		}
 	}
+	void szczekaj(int iloscSzczekniec){
+		while(iloscSzczekniec>0){
+			System.out.println("hauuuu");
+			iloscSzczekniec=iloscSzczekniec-1;
+		}
+	}
 }
