@@ -1,6 +1,6 @@
 package hfj.r04;
 class Pies{
-	int wielkosc;
+	private int wielkosc;
 	String nazwa;
 	void szczekaj(){
 		if(wielkosc>23){
@@ -16,5 +16,11 @@ class Pies{
 			System.out.println("hauuuu");
 			iloscSzczekniec=iloscSzczekniec-1;
 		}
+	}//szczekaj
+	public void setWielkosc(int w){
+		wielkosc=w;
+	}
+	public int getWielkosc(){
+		return wielkosc;
 	}
 }
