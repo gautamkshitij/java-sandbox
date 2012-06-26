@@ -11,5 +11,10 @@ class DobryPiesekTester{
 			drugi.getWielkosc());
 		pierwszy.szczekaj();
 		drugi.szczekaj();
+		// zamiast 
+		int x=3+24;
+		// mozna napisac:
+		x=3+pierwszy.getWielkosc();
+		System.out.println("x="+x);
 	}
 }
