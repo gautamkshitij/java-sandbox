@@ -4,7 +4,7 @@ class Zegar{
 		void setCzas(String c){
 			czas=c;
 		}
-		void getCzas(){
-			return czas;
+		String getCzas(){ 
+			return czas; // jednak to tutaj byl blad 
 		}
 }

@@ -1,0 +1,27 @@
+diff --git a/hfj-pl/src/hfj/r04/Zegar.java b/hfj-pl/src/hfj/r04/Zegar.java
+index 752ed70..14a63cd 100644
+--- a/hfj-pl/src/hfj/r04/Zegar.java
++++ b/hfj-pl/src/hfj/r04/Zegar.java
+@@ -4,7 +4,7 @@ class Zegar{
+ 		void setCzas(String c){
+ 			czas=c;
+ 		}
+-		void getCzas(){
+-			return czas;
++		String getCzas(){ 
++			return czas; // jednak to tutaj polecial blad 
+ 		}
+ }
+diff --git a/hfj-pl/src/hfj/r04/ZegarTester.java b/hfj-pl/src/hfj/r04/ZegarTester.java
+index 831ee3e..056f259 100644
+--- a/hfj-pl/src/hfj/r04/ZegarTester.java
++++ b/hfj-pl/src/hfj/r04/ZegarTester.java
+@@ -3,7 +3,7 @@ class ZegarTester{
+ 	public static void main(String[] args){
+ 		Zegar z = new Zegar();
+ 		z.setCzas("12345");
+-		String dta = z.getCzas(); // tutaj sie pewnie wywali
++		String dta = z.getCzas();
+ 		System.out.println("Czas : "+dta);
+ 	}
+ }
