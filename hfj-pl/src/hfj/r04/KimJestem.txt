@@ -1,0 +1,53 @@
+klasa moze miec ich dowolna ilosc
+
+	skladowa, metoda
+
+metoda moze miec tylko jedna z nich
+
+	wartosc wynikowa, modyfikator public, 
+	modyfikator private
+
+moga byc niejawnie rozszerzane
+
+	argument, wartosc wynikowa
+
+wole, aby moje skladowe byly prywatne
+
+	hermetyzacja, metoda
+
+w rzeczywistosci oznacza utworzenie kopii
+
+	przekazywanie przez wartosc
+
+jedynie metody zapisujace powinny je aktualizowac
+
+	skladowa
+
+metody moga miec ich dowolna ilosc
+
+	argument
+
+z definicji cos zwracam
+	
+	wartosc wynikowa, metoda odczytujaca,
+
+nie nalezy mnie stosowac wraz ze skladowymi
+
+	hermetyzacja?, modyfikator public
+
+moge miec wiele argumentow
+
+	metoda
+
+z definicji wymagam podania tylko jednego argumentu
+
+	metoda zapisujaca 
+
+pomagaja w hermetyzacji
+
+	metoda zapisujaca, metoda odczytujaca,
+	modyfikator private
+
+ja zawsze dzialam sam
+
+	?
