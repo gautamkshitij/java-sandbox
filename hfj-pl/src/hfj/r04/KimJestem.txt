@@ -50,4 +50,4 @@ pomagaja w hermetyzacji
 
 ja zawsze dzialam sam
 
-	?
+	modyfikator public, modyfikator private
