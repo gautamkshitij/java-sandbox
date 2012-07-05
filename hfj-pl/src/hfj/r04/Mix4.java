@@ -5,7 +5,7 @@ class Mix4{
 		int ilosc=0;
 		Mix4[] m4a=new Mix4[20];
 		int x=0;
-		while(x<9){
+		while(x<20){
 			m4a[x]=new Mix4();
 			m4a[x].licznik=m4a[x].licznik+1;
 			ilosc=ilosc+1;
