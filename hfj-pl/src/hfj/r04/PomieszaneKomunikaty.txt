@@ -3,4 +3,7 @@ indeks < 5
 
 	14 1
 
+x<20
+indeks<20
 
+	25 1
