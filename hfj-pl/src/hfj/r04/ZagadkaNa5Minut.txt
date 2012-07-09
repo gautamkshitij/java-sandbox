@@ -1,0 +1,6 @@
+Co podejrzewal Jasio? 
+Czy wyjdzie z meliny Chudzizny 
+w "jednym kawalku"?
+
+	Jasio podejrzewal, ze Kukula zapomnial
+	zadeklarowac swoje zmienne jako prywatne.
