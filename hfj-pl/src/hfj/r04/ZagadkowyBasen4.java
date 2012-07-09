@@ -1,4 +1,8 @@
 package hfj.r04;
+/**
+ * powinien wyswietlic:
+ * 'wynik: 543345'
+ */
 class ZagadkowyBasen4{
 	public static void main(String[] args){
 		ZagadkowyBasen4b[] obty = new ZagadkowyBasen4b[6];
@@ -6,15 +10,15 @@ class ZagadkowyBasen4{
 		int x=0;
 		int wynik=0;
 		while(x<6){
-			// FIXME
+			obty[x]=new ZagadkowyBasen4b();
 			x=x+1;
 			y=y*10;
-			// FIXME
+			obty[x].izm=y;
 		} // while
 		x=6;
 		while(x>0){
 			x=x-1;
-			wynik=wynik+FIXME;
+			wynik=wynik+obty[x].zrobCos(x);
 		} // while
 		System.out.println("wynik "+wynik);
 	} // main 
@@ -23,9 +27,9 @@ class ZagadkowyBasen4b {
 	int izm;
 	public int zrobCos(int czynnik){
 		if(izm>100){
-			return FIXME;
+			return izm*czynnik;
 		} else {
-			return FIXME;
+			return izm*(5-czynnik);
 		}
 	} // zrobCos 
 }
