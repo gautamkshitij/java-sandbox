@@ -11,9 +11,9 @@ class ZagadkowyBasen4{
 		int wynik=0;
 		while(x<6){
 			obty[x]=new ZagadkowyBasen4b();
-			x=x+1;
-			y=y*10;
 			obty[x].izm=y;
+			y=y*10;
+			x=x+1;
 		} // while
 		x=6;
 		while(x>0){
