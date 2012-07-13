@@ -9,5 +9,8 @@ class ProstyPortalTest{
 		String wynik=pp.sprawdz(wybranePole);
 		String wynikTestu="niepowodzenie";
 		if(wynik.equals("trafiony"){
+			wynikTestu="zakonczony pomyslnie";
+		}
+		System.out.println(wynikTestu);
 	}
 }
