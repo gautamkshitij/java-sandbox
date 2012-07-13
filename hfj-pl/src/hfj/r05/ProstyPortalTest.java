@@ -1,4 +1,7 @@
 package hfj.r05;
+// co mozna jeszcze sprawdzic:
+// - jak zachowa sie klasa w przypadku
+//  podania nieprawidlowych danych, np. null
 class ProstyPortalTest{
 	public static void main(String[] args){
 		ProstyPortal pp = new ProstyPortal();
