@@ -12,6 +12,19 @@ class ProstyPortal{
 		// lancuch "pudlo" (zakladamy, ze gracz spudlowal)
 		String wynik="pudlo";
 
+		for(int i=0; i<polozeniePol.length; i++){
+			if(pole=polozeniePol[i]){
+				wynik="trafiony";
+				iloscTrafien++;
+				break;
+			}
+		}
+		if(iloscTrafien==polozeniePol.length){
+			wynik="zatopiony";
+		}
+		System.out.println(wynik);
+		return wynik;
+
 		return wynik;
 	}
 	void setPolaPolozenia(int[] ppol){
