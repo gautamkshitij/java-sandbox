@@ -6,7 +6,13 @@ class ProstyPortal{
 	String sprawdz(String poleString){
 		// konwersja lancucha znakow na liczbe calkowita
 		int pole = Integer.parseInt(poleString);
-		return null;
+		// utworzenie zmiennej, ktora bedzie 
+		// przechowywac wynik metody;
+		// poczatkowo jest w niej zapisywany
+		// lancuch "pudlo" (zakladamy, ze gracz spudlowal)
+		String wynik="pudlo";
+
+		return wynik;
 	}
 	void setPolaPolozenia(int[] ppol){
 		
