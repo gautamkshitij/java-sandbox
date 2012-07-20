@@ -4,5 +4,5 @@
 cd ~/dev/workspace/java/sandbox/hfj-pl/
 
 #Notice that the DEX version of the .jar is used with java
-java -jar ./dist/$1.dex.jar hfj.r04.$1
+java -jar ./dist/$1.dex.jar hfj.r05.$1
 
