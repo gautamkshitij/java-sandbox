@@ -1,3 +1,5 @@
+package hfj.r05;
+
 //	METODA public static void main(String[] args){
 
 	// ZADEKLARUJ zmienna typu int
