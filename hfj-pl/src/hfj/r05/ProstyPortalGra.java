@@ -11,9 +11,19 @@
 	// ktora okresli poczatek miejsca,
 	// w ktorym zostanie umieszczony portal
 		
+	// UTWORZ tablice 3 liczb calkowitych, z ktorych
+	// pierwsza bedzie wartoscia wygenerowana losowo
+	// druga wartoscia o 1 wieksza, a 3 wartoscia
+	// wieksza o 2 (np. 2,3,4)
+	
 	// OKRESL polozenie portalu (3 sasiadujace komorki) 
+	
+	// ZADEKLARUJ zmienna logiczna reprezentujaca stan 
+	// gry i nada jej nazwe czyIstnieje. PRZYPISZ tej 
+	// zmiennej wartosc poczatkowa true
 
-	// DOPOKI portal nie zostal zatopiony
+	// DOPOKI portal nie zostal zatopiony 
+	// (czyIstnieje==true):
 	
 		// POBIERZ	dane wejsciowe wpisane przez
 		// gracza w wierszu polecen
