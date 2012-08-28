@@ -30,8 +30,12 @@ package hfj.r05;
 		// POBIERZ	dane wejsciowe wpisane przez
 		// gracza w wierszu polecen
 
-		// SPRAWDZ pole wskazane przez gracza
-		
+		// SPRAWDZ pole wskazane przez gracza 
+		// wywolaj metode sprawdz obiektu 
+		// klasy ProstyPortal
+
+		// INKREMENTUJ zmienna iloscRuchow 
+
 		// JESLI pole wskazane przez gracza
 		// wpisuje sie w polozenie portalu
 		
@@ -42,17 +46,26 @@ package hfj.r05;
 
 			// JESLI liczba udanych trafien portalu jest 
 			// rowna ilosci wszystkich jego pol
+			// to portal jest zatopiony (sprawdzenie 
+			// czy portal zostal zatopiony)
 	
-				//WYSWIETL informacje o tym, ze portal
+				// PRZYPISZ zmiennej czyIstnieje wartosc false 
+				// (co oznacza, ze petla nie zostanie 
+				// juz wiecej wykonana
+
+				// WYSWIETL ilosc ruchow gracza oraz 
+				// informacje o tym, ze portal
 				// zostal zatopiony
 
 				// przerwij sprawdzanie/trafianie przez 
 				// gracza
 
-	// WYSWIETL graczowi informacje o ilosci
-	// wykonanych ruchow
-	
-	// koniec dzialania gry
+			// koniec JESLI
+		// koniec JESLI
+	// koniec DOPOKI
+// koniec METODY
+
+// koniec dzialania gry
 
 class ProstyPortalGra{
 	public static void main(String[] args){
