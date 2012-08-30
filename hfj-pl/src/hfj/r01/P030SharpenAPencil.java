@@ -1,3 +1,5 @@
+package hfj.r01;
+
 public class P030SharpenAPencil {
 
 	public static void main(String args[]){
