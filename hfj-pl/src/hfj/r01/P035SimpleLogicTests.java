@@ -1,3 +1,5 @@
+package hfj.r01;
+
 public class P035SimpleLogicTests {
 
 	public static void main(String args[]){

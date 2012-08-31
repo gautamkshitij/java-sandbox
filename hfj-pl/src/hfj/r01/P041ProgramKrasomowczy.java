@@ -1,3 +1,5 @@
+package hfj.r01;
+
 public class P041ProgramKrasomowczy {
 
 	public static void main(String args[]){

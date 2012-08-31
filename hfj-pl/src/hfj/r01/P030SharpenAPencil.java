@@ -1,3 +1,5 @@
+package hfj.r01;
+
 public class P030SharpenAPencil {
 
 	public static void main(String args[]){
@@ -16,7 +18,7 @@ public class P030SharpenAPencil {
 		// of type Dog with name myDog and initialize 
 		// it with given name and size
 		// myDog name is Azor, ant it's 27 cm tall :P
-		Dog myDog = new Dog(name, size);
+		P031Pies myDog = new P031Pies(name, size);
 
 		// settle/initialize variable x 
 		// with size 22

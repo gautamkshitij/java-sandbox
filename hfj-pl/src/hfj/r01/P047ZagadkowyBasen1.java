@@ -1,3 +1,5 @@
+package hfj.r01;
+
 class P047ZagadkowyBasen1 {
   /**
   * Should show:
