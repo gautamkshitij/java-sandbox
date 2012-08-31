@@ -16,3 +16,4 @@ tdd-examples/
 *.jar
 *.swp
 *~
+.metadata/
