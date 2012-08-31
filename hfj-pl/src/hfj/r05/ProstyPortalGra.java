@@ -67,8 +67,8 @@ package hfj.r05;
 
 // koniec dzialania gry
 
-class ProstyPortalGra{
-	public static void main(String[] args){
+class ProstyPortalGra {
+	public static void main(String[] args) {
 		// code
 	}
 }
