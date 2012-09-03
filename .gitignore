@@ -30,3 +30,4 @@ oracle-collections/
 oracle-essential-classes/
 tdd-examples/
 *~
+.metadata/
