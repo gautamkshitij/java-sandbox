@@ -6,8 +6,7 @@ public class PomieszanePetleFor {
 		int y = 30;
 		for (int zewn=0; zewn<3;zewn++){
 			for(int wewn=4; wewn>1; wewn--){
-				// tutaj nalezy wstawic proponowany 
-				// fragment kodu
+				x = x + 3; // powinno dac w wyniku "54 6"
 				y=y-2;
 				if(x==6){
 					break;
