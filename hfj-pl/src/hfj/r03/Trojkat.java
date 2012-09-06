@@ -1,3 +1,5 @@
+package hfj.r03;
+
 class Trojkat{
   double pole;
   int wysokosc;

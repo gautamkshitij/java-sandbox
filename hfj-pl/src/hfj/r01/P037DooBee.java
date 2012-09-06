@@ -1,3 +1,5 @@
+package hfj.r01;
+
 // expected result: DooBeeDooBeeDo
 public class P037DooBee {
 

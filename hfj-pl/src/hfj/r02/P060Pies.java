@@ -1,3 +1,5 @@
+package hfj.r02;
+
 class P060Pies {
   // skladowe
   int wielkosc;

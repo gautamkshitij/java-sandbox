@@ -1,3 +1,5 @@
+package hfj.r01;
+
 public class P045Cwiczenie1A {
 
 	public static void main(String args[]){

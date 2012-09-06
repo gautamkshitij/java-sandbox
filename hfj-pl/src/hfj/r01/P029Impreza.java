@@ -1,3 +1,5 @@
+package hfj.r01;
+
 import java.awt.*;
 import java.awt.event.*;
 class P029Impreza {

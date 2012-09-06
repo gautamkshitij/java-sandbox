@@ -1,3 +1,5 @@
+package hfj.r04;
+
 class OdtwarzaczTest{
 	static Odtwarzacz odtwarzacz = new Odtwarzacz();
 	String tytul = "sing sing";
