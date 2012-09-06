@@ -1,5 +1,3 @@
-package hfj.r02;
-
 class P061Film {
 	String tytul;
 	String rodzaj;

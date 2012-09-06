@@ -1,5 +1,3 @@
-package hfj.r01;
-
 public class P037TestIf2 {
 
 	public static void main(String args[]){

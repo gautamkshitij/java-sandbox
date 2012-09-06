@@ -1,5 +1,3 @@
-package hfj.r01;
-
 public class P045Cwiczenie1B {
   public static void main(String[] args) {
     int x = 5;

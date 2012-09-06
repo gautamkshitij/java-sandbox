@@ -1,11 +1,9 @@
-package hfj.r01;
-
 public class P031Pies {
 
 	private String name;
 	private int size;
 
-	public P031Pies(String name, int size){
+	public Dog(String name, int size){
 		this.name = name;
 		this.size = size;
 	}

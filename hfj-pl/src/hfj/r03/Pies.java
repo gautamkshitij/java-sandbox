@@ -1,5 +1,3 @@
-package hfj.r03;
-
 //package hfj.r03;
 class Pies{
   String imie;

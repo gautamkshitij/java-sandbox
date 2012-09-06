@@ -1,5 +1,3 @@
-package hfj.r03;
-
 class KwizGoraProblemow{
 	int id=0;
 	public static void main(String[] args){

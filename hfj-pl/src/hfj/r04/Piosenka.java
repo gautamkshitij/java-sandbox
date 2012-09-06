@@ -1,5 +1,3 @@
-package hfj.r04;
-
 //package hfj.r04;
 class Piosenka{
 	String tytul;

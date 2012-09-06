@@ -1,5 +1,3 @@
-package hfj.r02;
-
 public class P061FilmTester {
 	public static void main(String[] args){
 		System.out.println("FilmTester START");
