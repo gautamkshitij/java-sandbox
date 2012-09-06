@@ -1,9 +1,0 @@
-y 1
-x 0
-wynik 543345
-obty[0].izm=1
-obty[1].izm=10
-obty[2].izm=100
-obty[3].izm=1000
-obty[4].izm=10000
-obty[5].izm=100000
