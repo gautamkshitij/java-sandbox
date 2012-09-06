@@ -1,0 +1,746 @@
+diff --git a/.gitignore b/.gitignore
+index 79cf502..3fa23d1 100644
+--- a/.gitignore
++++ b/.gitignore
+@@ -30,3 +30,4 @@ oracle-collections/
+ oracle-essential-classes/
+ tdd-examples/
+ *~
++.metadata/
+diff --git a/hfj-pl/.gitignore b/hfj-pl/.gitignore
+new file mode 100644
+index 0000000..e660fd9
+--- /dev/null
++++ b/hfj-pl/.gitignore
+@@ -0,0 +1 @@
++bin/
+diff --git a/hfj-pl/src/hfj/r01/P029Impreza.java b/hfj-pl/src/hfj/r01/P029Impreza.java
+index 4aeb1ed..52bc2c0 100644
+--- a/hfj-pl/src/hfj/r01/P029Impreza.java
++++ b/hfj-pl/src/hfj/r01/P029Impreza.java
+@@ -1,5 +1,7 @@
+-import java.awt.*;
+-import java.awt.event.*;
++package hfj.r01;
++
++import java.awt.Frame;
++import java.awt.Label;
+ class P029Impreza {
+ 	public void createInvitation() {
+ 		Frame f = new Frame();
+diff --git a/hfj-pl/src/hfj/r01/P030SharpenAPencil.java b/hfj-pl/src/hfj/r01/P030SharpenAPencil.java
+index 92ca04d..4ed911d 100644
+--- a/hfj-pl/src/hfj/r01/P030SharpenAPencil.java
++++ b/hfj-pl/src/hfj/r01/P030SharpenAPencil.java
+@@ -1,3 +1,5 @@
++package hfj.r01;
++
+ public class P030SharpenAPencil {
+ 
+ 	public static void main(String args[]){
+@@ -16,7 +18,7 @@ public class P030SharpenAPencil {
+ 		// of type Dog with name myDog and initialize 
+ 		// it with given name and size
+ 		// myDog name is Azor, ant it's 27 cm tall :P
+-		Dog myDog = new Dog(name, size);
++		P031Pies myDog = new P031Pies(name, size);
+ 
+ 		// settle/initialize variable x 
+ 		// with size 22
+diff --git a/hfj-pl/src/hfj/r01/P031Pies.java b/hfj-pl/src/hfj/r01/P031Pies.java
+index 6c75423..3c3481c 100644
+--- a/hfj-pl/src/hfj/r01/P031Pies.java
++++ b/hfj-pl/src/hfj/r01/P031Pies.java
+@@ -1,9 +1,11 @@
++package hfj.r01;
++
+ public class P031Pies {
+ 
+ 	private String name;
+ 	private int size;
+ 
+-	public Dog(String name, int size){
++	public P031Pies(String name, int size){
+ 		this.name = name;
+ 		this.size = size;
+ 	}
+diff --git a/hfj-pl/src/hfj/r01/P032MojaPierwszaAplikacja.java b/hfj-pl/src/hfj/r01/P032MojaPierwszaAplikacja.java
+index 747293d..94c9018 100644
+--- a/hfj-pl/src/hfj/r01/P032MojaPierwszaAplikacja.java
++++ b/hfj-pl/src/hfj/r01/P032MojaPierwszaAplikacja.java
+@@ -1,3 +1,5 @@
++package hfj.r01;
++
+ public class P032MojaPierwszaAplikacja {
+ 
+ 	public static void main(String args[]){
+diff --git a/hfj-pl/src/hfj/r01/P034WhatCanBePlacedInMainMethod.java b/hfj-pl/src/hfj/r01/P034WhatCanBePlacedInMainMethod.java
+index c0e8042..5805344 100644
+--- a/hfj-pl/src/hfj/r01/P034WhatCanBePlacedInMainMethod.java
++++ b/hfj-pl/src/hfj/r01/P034WhatCanBePlacedInMainMethod.java
+@@ -1,3 +1,5 @@
++package hfj.r01;
++
+ public class P034WhatCanBePlacedInMainMethod {
+ 
+ 	public static void main(String args[]){
+diff --git a/hfj-pl/src/hfj/r01/P035SimpleLogicTests.java b/hfj-pl/src/hfj/r01/P035SimpleLogicTests.java
+index e8ec132..e74f682 100644
+--- a/hfj-pl/src/hfj/r01/P035SimpleLogicTests.java
++++ b/hfj-pl/src/hfj/r01/P035SimpleLogicTests.java
+@@ -1,3 +1,6 @@
++package hfj.r01;
++
++
+ public class P035SimpleLogicTests {
+ 
+ 	public static void main(String args[]){
+diff --git a/hfj-pl/src/hfj/r01/P036WhileLoopExamples.java b/hfj-pl/src/hfj/r01/P036WhileLoopExamples.java
+index d905302..2233cd7 100644
+--- a/hfj-pl/src/hfj/r01/P036WhileLoopExamples.java
++++ b/hfj-pl/src/hfj/r01/P036WhileLoopExamples.java
+@@ -1,3 +1,5 @@
++package hfj.r01;
++
+ public class P036WhileLoopExamples {
+ 
+ 	public static void main(String args[]){
+diff --git a/hfj-pl/src/hfj/r01/P037DooBee.java b/hfj-pl/src/hfj/r01/P037DooBee.java
+index 6f8da6e..a745298 100644
+--- a/hfj-pl/src/hfj/r01/P037DooBee.java
++++ b/hfj-pl/src/hfj/r01/P037DooBee.java
+@@ -1,3 +1,5 @@
++package hfj.r01;
++
+ // expected result: DooBeeDooBeeDo
+ public class P037DooBee {
+ 
+diff --git a/hfj-pl/src/hfj/r01/P037TestIf1.java b/hfj-pl/src/hfj/r01/P037TestIf1.java
+index fb4c6ec..8651bbb 100644
+--- a/hfj-pl/src/hfj/r01/P037TestIf1.java
++++ b/hfj-pl/src/hfj/r01/P037TestIf1.java
+@@ -1,3 +1,5 @@
++package hfj.r01;
++
+ public class P037TestIf1 {
+ 
+ 	public static void main(String args[]){
+diff --git a/hfj-pl/src/hfj/r01/P037TestIf2.java b/hfj-pl/src/hfj/r01/P037TestIf2.java
+index 289488a..7154c7d 100644
+--- a/hfj-pl/src/hfj/r01/P037TestIf2.java
++++ b/hfj-pl/src/hfj/r01/P037TestIf2.java
+@@ -1,3 +1,5 @@
++package hfj.r01;
++
+ public class P037TestIf2 {
+ 
+ 	public static void main(String args[]){
+diff --git a/hfj-pl/src/hfj/r01/P038PiosenkaOPiwie.java b/hfj-pl/src/hfj/r01/P038PiosenkaOPiwie.java
+index 7e62483..9d850f8 100644
+--- a/hfj-pl/src/hfj/r01/P038PiosenkaOPiwie.java
++++ b/hfj-pl/src/hfj/r01/P038PiosenkaOPiwie.java
+@@ -1,3 +1,5 @@
++package hfj.r01;
++
+ public class P038PiosenkaOPiwie {
+ 
+ 	public static void main(String args[]){
+diff --git a/hfj-pl/src/hfj/r01/P040Krasomowca.java b/hfj-pl/src/hfj/r01/P040Krasomowca.java
+index 8bf2c17..f008650 100644
+--- a/hfj-pl/src/hfj/r01/P040Krasomowca.java
++++ b/hfj-pl/src/hfj/r01/P040Krasomowca.java
+@@ -1,3 +1,5 @@
++package hfj.r01;
++
+ public class P040Krasomowca {
+ 
+ 	public static void main(String args[]){
+diff --git a/hfj-pl/src/hfj/r01/P041ProgramKrasomowczy.java b/hfj-pl/src/hfj/r01/P041ProgramKrasomowczy.java
+index c5f06e2..683a2ed 100644
+--- a/hfj-pl/src/hfj/r01/P041ProgramKrasomowczy.java
++++ b/hfj-pl/src/hfj/r01/P041ProgramKrasomowczy.java
+@@ -1,3 +1,5 @@
++package hfj.r01;
++
+ public class P041ProgramKrasomowczy {
+ 
+ 	public static void main(String args[]){
+diff --git a/hfj-pl/src/hfj/r01/P044MagnesikiZKodem.java b/hfj-pl/src/hfj/r01/P044MagnesikiZKodem.java
+index a0ef24d..c82c259 100644
+--- a/hfj-pl/src/hfj/r01/P044MagnesikiZKodem.java
++++ b/hfj-pl/src/hfj/r01/P044MagnesikiZKodem.java
+@@ -1,3 +1,5 @@
++package hfj.r01;
++
+ public class P044MagnesikiZKodem {
+ 
+ 	public static void main(String args[]){
+diff --git a/hfj-pl/src/hfj/r01/P045Cwiczenie1A.java b/hfj-pl/src/hfj/r01/P045Cwiczenie1A.java
+index 4bdf182..4bfac5d 100644
+--- a/hfj-pl/src/hfj/r01/P045Cwiczenie1A.java
++++ b/hfj-pl/src/hfj/r01/P045Cwiczenie1A.java
+@@ -1,3 +1,5 @@
++package hfj.r01;
++
+ public class P045Cwiczenie1A {
+ 
+ 	public static void main(String args[]){
+diff --git a/hfj-pl/src/hfj/r01/P045Cwiczenie1B.java b/hfj-pl/src/hfj/r01/P045Cwiczenie1B.java
+index 345e4fd..8518bd2 100644
+--- a/hfj-pl/src/hfj/r01/P045Cwiczenie1B.java
++++ b/hfj-pl/src/hfj/r01/P045Cwiczenie1B.java
+@@ -1,3 +1,5 @@
++package hfj.r01;
++
+ public class P045Cwiczenie1B {
+   public static void main(String[] args) {
+     int x = 5;
+diff --git a/hfj-pl/src/hfj/r01/P045Cwiczenie1C.java b/hfj-pl/src/hfj/r01/P045Cwiczenie1C.java
+index 957b7c4..1136886 100644
+--- a/hfj-pl/src/hfj/r01/P045Cwiczenie1C.java
++++ b/hfj-pl/src/hfj/r01/P045Cwiczenie1C.java
+@@ -1,3 +1,5 @@
++package hfj.r01;
++
+ public class P045Cwiczenie1C {
+   public static void main(String[] args){
+   int x = 5;
+diff --git a/hfj-pl/src/hfj/r01/P046PomieszaneKomunikaty.java b/hfj-pl/src/hfj/r01/P046PomieszaneKomunikaty.java
+index b49618c..6dfd04c 100644
+--- a/hfj-pl/src/hfj/r01/P046PomieszaneKomunikaty.java
++++ b/hfj-pl/src/hfj/r01/P046PomieszaneKomunikaty.java
+@@ -1,3 +1,5 @@
++package hfj.r01;
++
+ public class P046PomieszaneKomunikaty {
+ 
+   public static void main(String args[]){
+diff --git a/hfj-pl/src/hfj/r01/P047ZagadkowyBasen1.java b/hfj-pl/src/hfj/r01/P047ZagadkowyBasen1.java
+index 0ad70b1..2b86495 100644
+--- a/hfj-pl/src/hfj/r01/P047ZagadkowyBasen1.java
++++ b/hfj-pl/src/hfj/r01/P047ZagadkowyBasen1.java
+@@ -1,3 +1,5 @@
++package hfj.r01;
++
+ class P047ZagadkowyBasen1 {
+   /**
+   * Should show:
+diff --git a/hfj-pl/src/hfj/r02/P060Pies.java b/hfj-pl/src/hfj/r02/P060Pies.java
+index d14101e..4984ac5 100644
+--- a/hfj-pl/src/hfj/r02/P060Pies.java
++++ b/hfj-pl/src/hfj/r02/P060Pies.java
+@@ -1,3 +1,5 @@
++package hfj.r02;
++
+ class P060Pies {
+   // skladowe
+   int wielkosc;
+diff --git a/hfj-pl/src/hfj/r02/P060PiesTester.java b/hfj-pl/src/hfj/r02/P060PiesTester.java
+index 2e83d62..53a05b6 100644
+--- a/hfj-pl/src/hfj/r02/P060PiesTester.java
++++ b/hfj-pl/src/hfj/r02/P060PiesTester.java
+@@ -1,3 +1,5 @@
++package hfj.r02;
++
+ class P060PiesTester{
+   public static void main(String[] args){
+     // Tutaj umiescimy kod testujacy 
+diff --git a/hfj-pl/src/hfj/r02/P061Film.java b/hfj-pl/src/hfj/r02/P061Film.java
+index 8496552..318af0f 100644
+--- a/hfj-pl/src/hfj/r02/P061Film.java
++++ b/hfj-pl/src/hfj/r02/P061Film.java
+@@ -1,3 +1,5 @@
++package hfj.r02;
++
+ class P061Film {
+ 	String tytul;
+ 	String rodzaj;
+diff --git a/hfj-pl/src/hfj/r02/P061FilmTester.java b/hfj-pl/src/hfj/r02/P061FilmTester.java
+index 60e0478..1514a7f 100644
+--- a/hfj-pl/src/hfj/r02/P061FilmTester.java
++++ b/hfj-pl/src/hfj/r02/P061FilmTester.java
+@@ -1,3 +1,5 @@
++package hfj.r02;
++
+ public class P061FilmTester {
+ 	public static void main(String[] args){
+ 		System.out.println("FilmTester START");
+diff --git a/hfj-pl/src/hfj/r03/Hobbici.java b/hfj-pl/src/hfj/r03/Hobbici.java
+index 6797c83..b346dff 100644
+--- a/hfj-pl/src/hfj/r03/Hobbici.java
++++ b/hfj-pl/src/hfj/r03/Hobbici.java
+@@ -1,3 +1,5 @@
++package hfj.r03;
++
+ //package hfj.r03;
+ 
+ /**
+diff --git a/hfj-pl/src/hfj/r03/Ksiazka.java b/hfj-pl/src/hfj/r03/Ksiazka.java
+index fe0319b..9887a78 100644
+--- a/hfj-pl/src/hfj/r03/Ksiazka.java
++++ b/hfj-pl/src/hfj/r03/Ksiazka.java
+@@ -1,3 +1,5 @@
++package hfj.r03;
++
+ //package hfj.r03;
+ class Ksiazka{
+   String tytul;
+diff --git a/hfj-pl/src/hfj/r03/KsiazkaTester.java b/hfj-pl/src/hfj/r03/KsiazkaTester.java
+index f2d6af5..a08a697 100644
+--- a/hfj-pl/src/hfj/r03/KsiazkaTester.java
++++ b/hfj-pl/src/hfj/r03/KsiazkaTester.java
+@@ -1,3 +1,5 @@
++package hfj.r03;
++
+ //package hfj.r03;
+ /**
+  * Trzecia wersja klasy,
+diff --git a/hfj-pl/src/hfj/r03/KwizGoraProblemow.java b/hfj-pl/src/hfj/r03/KwizGoraProblemow.java
+index 072e4ae..0cf70cf 100644
+--- a/hfj-pl/src/hfj/r03/KwizGoraProblemow.java
++++ b/hfj-pl/src/hfj/r03/KwizGoraProblemow.java
+@@ -1,3 +1,5 @@
++package hfj.r03;
++
+ class KwizGoraProblemow{
+ 	int id=0;
+ 	public static void main(String[] args){
+diff --git a/hfj-pl/src/hfj/r03/Pies.java b/hfj-pl/src/hfj/r03/Pies.java
+index c32d169..75f13bf 100644
+--- a/hfj-pl/src/hfj/r03/Pies.java
++++ b/hfj-pl/src/hfj/r03/Pies.java
+@@ -1,3 +1,5 @@
++package hfj.r03;
++
+ //package hfj.r03;
+ class Pies{
+   String imie;
+diff --git a/hfj-pl/src/hfj/r03/Trojkat.java b/hfj-pl/src/hfj/r03/Trojkat.java
+index 6694780..c9fcba7 100644
+--- a/hfj-pl/src/hfj/r03/Trojkat.java
++++ b/hfj-pl/src/hfj/r03/Trojkat.java
+@@ -1,3 +1,5 @@
++package hfj.r03;
++
+ class Trojkat{
+   double pole;
+   int wysokosc;
+diff --git a/hfj-pl/src/hfj/r03/TypyPodstawowe.java b/hfj-pl/src/hfj/r03/TypyPodstawowe.java
+index af3cb48..f122234 100644
+--- a/hfj-pl/src/hfj/r03/TypyPodstawowe.java
++++ b/hfj-pl/src/hfj/r03/TypyPodstawowe.java
+@@ -24,9 +24,4 @@ class TypyPodstawowe{
+ 		float f=32.4f;
+ 		System.out.println("float f: "+f);
+ 	}
+-}
+-class TypyPodstawowe{
+-	public static void main(String[] args){
+-		// code
+-	}
+-}
++}
+\ No newline at end of file
+diff --git a/hfj-pl/src/hfj/r04/Odtwarzacz.java b/hfj-pl/src/hfj/r04/Odtwarzacz.java
+index 3ae40a1..b7c26cd 100644
+--- a/hfj-pl/src/hfj/r04/Odtwarzacz.java
++++ b/hfj-pl/src/hfj/r04/Odtwarzacz.java
+@@ -1,3 +1,5 @@
++package hfj.r04;
++
+ class Odtwarzacz{
+ 	void playSound(String tytul){
+ 		System.out.println("gram : " + tytul);
+diff --git a/hfj-pl/src/hfj/r04/OdtwarzaczTest.java b/hfj-pl/src/hfj/r04/OdtwarzaczTest.java
+index e962351..b746f21 100644
+--- a/hfj-pl/src/hfj/r04/OdtwarzaczTest.java
++++ b/hfj-pl/src/hfj/r04/OdtwarzaczTest.java
+@@ -1,3 +1,5 @@
++package hfj.r04;
++
+ class OdtwarzaczTest{
+ 	static Odtwarzacz odtwarzacz = new Odtwarzacz();
+ 	String tytul = "sing sing";
+diff --git a/hfj-pl/src/hfj/r04/Piosenka.java b/hfj-pl/src/hfj/r04/Piosenka.java
+index 2e86508..d7a0736 100644
+--- a/hfj-pl/src/hfj/r04/Piosenka.java
++++ b/hfj-pl/src/hfj/r04/Piosenka.java
+@@ -1,3 +1,5 @@
++package hfj.r04;
++
+ //package hfj.r04;
+ class Piosenka{
+ 	String tytul;
+diff --git a/hfj-pl/src/hfj/r04/PiosenkaTest.java b/hfj-pl/src/hfj/r04/PiosenkaTest.java
+index 902dc9f..834c5f5 100644
+--- a/hfj-pl/src/hfj/r04/PiosenkaTest.java
++++ b/hfj-pl/src/hfj/r04/PiosenkaTest.java
+@@ -1,3 +1,5 @@
++package hfj.r04;
++
+ //package hfj.r04;
+ class PiosenkaTest{
+ 	public static void main(String[] args){
+diff --git a/hfj-pl/src/hfj/r05/JakDzialaOperatorPostDekrementacji.java b/hfj-pl/src/hfj/r05/JakDzialaOperatorPostDekrementacji.java
+new file mode 100644
+index 0000000..609f4cc
+--- /dev/null
++++ b/hfj-pl/src/hfj/r05/JakDzialaOperatorPostDekrementacji.java
+@@ -0,0 +1,12 @@
++package hfj.r05;
++
++public class JakDzialaOperatorPostDekrementacji {
++	public static void main(String[] args) {
++		int x = 0;
++		System.out.println("1. " + x);
++		x--; // odpowiada: x = x - 1;
++		System.out.println("2. " + x);
++		System.out.println("3. " + x--);
++		System.out.println("4. " + x);
++	}
++}
+diff --git a/hfj-pl/src/hfj/r05/JakDzialaOperatorPostInkrementacji.java b/hfj-pl/src/hfj/r05/JakDzialaOperatorPostInkrementacji.java
+new file mode 100644
+index 0000000..86f3737
+--- /dev/null
++++ b/hfj-pl/src/hfj/r05/JakDzialaOperatorPostInkrementacji.java
+@@ -0,0 +1,13 @@
++package hfj.r05;
++
++public class JakDzialaOperatorPostInkrementacji {
++
++	public static void main(String[] args) {
++		int x = 0;
++		System.out.println("1. "+ x);
++		x++; // odpowiada: x = x+1;
++		System.out.println("2. "+ x);
++		System.out.println("3. "+ x++);
++		System.out.println("4. "+ x);
++	}
++}
+diff --git a/hfj-pl/src/hfj/r05/JakDzialaOperatorPreDekrementacji.java b/hfj-pl/src/hfj/r05/JakDzialaOperatorPreDekrementacji.java
+new file mode 100644
+index 0000000..c809f2d
+--- /dev/null
++++ b/hfj-pl/src/hfj/r05/JakDzialaOperatorPreDekrementacji.java
+@@ -0,0 +1,12 @@
++package hfj.r05;
++
++public class JakDzialaOperatorPreDekrementacji {
++	public static void main(String[] args) {
++		int x = 0;
++		System.out.println("1. " + x);
++		--x; // odpowiada: x = x - 1;
++		System.out.println("2. " + x);
++		System.out.println("3. " + --x);
++		System.out.println("4. " + x);
++	}
++}
+diff --git a/hfj-pl/src/hfj/r05/JakDzialaOperatorPreInkrementacji.java b/hfj-pl/src/hfj/r05/JakDzialaOperatorPreInkrementacji.java
+new file mode 100644
+index 0000000..14b1d50
+--- /dev/null
++++ b/hfj-pl/src/hfj/r05/JakDzialaOperatorPreInkrementacji.java
+@@ -0,0 +1,12 @@
++package hfj.r05;
++
++public class JakDzialaOperatorPreInkrementacji {
++	public static void main(String[] args) {
++		int x = 0;
++		System.out.println("1. "+ x);
++		++x; // odpowiada: x = x+1;
++		System.out.println("2. "+ x);
++		System.out.println("3. "+ ++x);
++		System.out.println("4. "+ x);
++	}
++}
+diff --git a/hfj-pl/src/hfj/r05/KonwersjaLancuchaZnakowNaLiczbeCalkowita.java b/hfj-pl/src/hfj/r05/KonwersjaLancuchaZnakowNaLiczbeCalkowita.java
+new file mode 100644
+index 0000000..006e506
+--- /dev/null
++++ b/hfj-pl/src/hfj/r05/KonwersjaLancuchaZnakowNaLiczbeCalkowita.java
+@@ -0,0 +1,11 @@
++package hfj.r05;
++
++public class KonwersjaLancuchaZnakowNaLiczbeCalkowita {
++	public static void main(String[] args) {
++		String liczba = "2";
++		int x = 2;
++		if (x==Integer.parseInt(liczba)){ 
++			System.out.println("to nie wybuchnie");
++		}
++	}
++}
+diff --git a/hfj-pl/src/hfj/r05/PetleFor.java b/hfj-pl/src/hfj/r05/PetleFor.java
+new file mode 100644
+index 0000000..c1c4e5d
+--- /dev/null
++++ b/hfj-pl/src/hfj/r05/PetleFor.java
+@@ -0,0 +1,14 @@
++package hfj.r05;
++
++public class PetleFor {
++	public static void main(String[] args) {
++		for(int x=0; x<4; x++){
++			for(int y=4;y>2;y--){
++				System.out.println(x+" "+y);
++			}
++			if(x==1){
++				x++;
++			}
++		}
++	}
++}
+diff --git a/hfj-pl/src/hfj/r05/PomieszanePetleFor.java b/hfj-pl/src/hfj/r05/PomieszanePetleFor.java
+new file mode 100644
+index 0000000..eb3b609
+--- /dev/null
++++ b/hfj-pl/src/hfj/r05/PomieszanePetleFor.java
+@@ -0,0 +1,20 @@
++package hfj.r05;
++
++public class PomieszanePetleFor {
++	public static void main(String[] args) {
++		int x = 0;
++		int y = 30;
++		for (int zewn=0; zewn<3;zewn++){
++			for(int wewn=4; wewn>1; wewn--){
++				x=x+0; // powinno dac w wyniku "6 14"
++				y=y-2;
++				if(x==6){
++					break;
++				}
++				x=x+3;
++			}
++			y=y-2;
++		}
++		System.out.println(x + " " + y);
++	}
++}
+diff --git a/hfj-pl/src/hfj/r05/PomocnikGry.java b/hfj-pl/src/hfj/r05/PomocnikGry.java
+new file mode 100644
+index 0000000..189115c
+--- /dev/null
++++ b/hfj-pl/src/hfj/r05/PomocnikGry.java
+@@ -0,0 +1,22 @@
++package hfj.r05;
++
++import java.io.BufferedReader;
++import java.io.IOException;
++import java.io.InputStreamReader;
++
++public class PomocnikGry {
++
++	public static String pobierzDaneWejsciowe(String komunikat) {
++		String wierszWej = null;
++		System.out.println(komunikat + " ");
++		try {
++			BufferedReader sw = new BufferedReader(new InputStreamReader(System.in));
++			wierszWej = sw.readLine();
++			if(wierszWej.length()==0) return null;
++		} catch (IOException e) {
++			System.out.println("IOException: "+e);
++		}
++		return wierszWej;
++	}
++
++}
+diff --git a/hfj-pl/src/hfj/r05/ProstyPortalGra.java b/hfj-pl/src/hfj/r05/ProstyPortalGra.java
+index 388e709..dbb1b60 100644
+--- a/hfj-pl/src/hfj/r05/ProstyPortalGra.java
++++ b/hfj-pl/src/hfj/r05/ProstyPortalGra.java
+@@ -1,74 +1,34 @@
+ package hfj.r05;
+ 
+-//	METODA public static void main(String[] args){
+-
+-	// ZADEKLARUJ zmienna typu int
+-	// przechowujaca ilosc ruchow gracza,
+-	// nadaj jej nazwe iloscRuchow
+-		
+-	// ZADEKLARUJ zmienna typu ProstyPortal 
+-	// i przypisz do niej nowy obiekt 
+-		
+-	// WYZNACZ liczbe losowa z zakresu 0-4,
+-	// ktora okresli poczatek miejsca,
+-	// w ktorym zostanie umieszczony portal
+-		
+-	// UTWORZ tablice 3 liczb calkowitych, z ktorych
+-	// pierwsza bedzie wartoscia wygenerowana losowo
+-	// druga wartoscia o 1 wieksza, a 3 wartoscia
+-	// wieksza o 2 (np. 2,3,4)
+-	
+-	// OKRESL polozenie portalu (3 sasiadujace komorki) 
+-	
+-	// ZADEKLARUJ zmienna logiczna reprezentujaca stan 
+-	// gry i nada jej nazwe czyIstnieje. PRZYPISZ tej 
+-	// zmiennej wartosc poczatkowa true
++class ProstyPortalGra{
++	public static void main(String[] args){
+ 
+-	// DOPOKI portal nie zostal zatopiony 
+-	// (czyIstnieje==true):
+-	
+-		// POBIERZ	dane wejsciowe wpisane przez
+-		// gracza w wierszu polecen
++		int iloscRuchow = 0;
+ 
+-		// SPRAWDZ pole wskazane przez gracza 
+-		// wywolaj metode sprawdz obiektu 
+-		// klasy ProstyPortal
++		ProstyPortal portal = new ProstyPortal();
+ 
+-		// INKREMENTUJ zmienna iloscRuchow 
++		int liczbaLosowa = (int) (Math.random()*5);
+ 
+-		// JESLI pole wskazane przez gracza
+-		// wpisuje sie w polozenie portalu
++		int[] polaPolozenia = { liczbaLosowa, liczbaLosowa+1, liczbaLosowa+2};  
+ 		
+-			// WYSWIETL informacje o tym, ze portal
+-			// zostal trafiony
+-
+-			// zwieksz licznik trafien na obiekcie portal
+-
+-			// JESLI liczba udanych trafien portalu jest 
+-			// rowna ilosci wszystkich jego pol
+-			// to portal jest zatopiony (sprawdzenie 
+-			// czy portal zostal zatopiony)
+-	
+-				// PRZYPISZ zmiennej czyIstnieje wartosc false 
+-				// (co oznacza, ze petla nie zostanie 
+-				// juz wiecej wykonana
++		portal.setPolaPolozenia(polaPolozenia); 
++		
++		boolean czyIstnieje = true; 
+ 
+-				// WYSWIETL ilosc ruchow gracza oraz 
+-				// informacje o tym, ze portal
+-				// zostal zatopiony
++		while(czyIstnieje) {
++		
++			String podanePole = PomocnikGry.pobierzDaneWejsciowe("Podaj liczbe");
+ 
+-				// przerwij sprawdzanie/trafianie przez 
+-				// gracza
++			String wynik = portal.sprawdz(podanePole);
+ 
+-			// koniec JESLI
+-		// koniec JESLI
+-	// koniec DOPOKI
+-// koniec METODY
++			iloscRuchow++; 
+ 
+-// koniec dzialania gry
++			if("zatopiony".equals(wynik)){// JESLI liczba udanych trafien portalu jest 
++	
++				czyIstnieje = false;
+ 
+-class ProstyPortalGra{
+-	public static void main(String[] args){
+-		// code
+-	}
+-}
+\ No newline at end of file
++				System.out.println("Ilosc Ruchow: " + iloscRuchow);
++			} // if
++		} // while 
++	} // main
++}
+diff --git a/hfj-pl/src/hfj/r05/RzutowanieWartosciTypowPodstawowych.java b/hfj-pl/src/hfj/r05/RzutowanieWartosciTypowPodstawowych.java
+new file mode 100644
+index 0000000..b6b10b2
+--- /dev/null
++++ b/hfj-pl/src/hfj/r05/RzutowanieWartosciTypowPodstawowych.java
+@@ -0,0 +1,16 @@
++package hfj.r05;
++
++public class RzutowanieWartosciTypowPodstawowych {
++
++	public static void main(String[] args) {
++		long y = 40002; // ta liczba przekracza zakres 16-bitowych wartosci
++						// typu short
++		short x = (short) y; // x ma wartosc -25534
++		System.out.println(x);
++		
++		float f = 3.14f;
++		int z = (int)f;
++		System.out.println("f: " + f);
++		System.out.println("z: " + z); // z bedzie miec wartosc 3
++	}
++}
+diff --git a/hfj-pl/src/hfj/r05/WycieczkiPoPetliFor.java b/hfj-pl/src/hfj/r05/WycieczkiPoPetliFor.java
+new file mode 100644
+index 0000000..8b1ddeb
+--- /dev/null
++++ b/hfj-pl/src/hfj/r05/WycieczkiPoPetliFor.java
+@@ -0,0 +1,11 @@
++package hfj.r05;
++
++public class WycieczkiPoPetliFor {
++
++	public static void main(String[] args) {
++		for(int i=0; i<8; i++){
++			System.out.println(i);
++		}
++		System.out.println("gotowe");
++	}
++}
+diff --git a/hfj-pl/src/hfj/r05/WycieczkiPoPetliWhile.java b/hfj-pl/src/hfj/r05/WycieczkiPoPetliWhile.java
+new file mode 100644
+index 0000000..1229de1
+--- /dev/null
++++ b/hfj-pl/src/hfj/r05/WycieczkiPoPetliWhile.java
+@@ -0,0 +1,13 @@
++package hfj.r05;
++
++public class WycieczkiPoPetliWhile {
++
++	public static void main(String[] args) {
++		int i=0;
++		while(i<8){
++			System.out.println(i);
++			i++;
++		}
++		System.out.println("gotowe");
++	}
++}
+diff --git a/hfj-pl/src/hfj/r05/Wyniki.java b/hfj-pl/src/hfj/r05/Wyniki.java
+new file mode 100644
+index 0000000..009cbc2
+--- /dev/null
++++ b/hfj-pl/src/hfj/r05/Wyniki.java
+@@ -0,0 +1,33 @@
++package hfj.r05;
++
++public class Wyniki {
++	public static void main(String[] args) {
++		Wyniki w = new Wyniki();
++		w.doDziela();
++	}
++
++	/*
++	 * przebie programu:
++	 * x=1; y=8;
++	 * x=2; y=9;
++	 * x=3; y=10;
++	 * x=4; y=11;
++	 * x=5; y=12; y=13 (print "13 ")
++	 * x=6; y=14; y=15 (print "15 ")
++	 * czyli wynik to: "13 15  x = 6
++	 */
++	private void doDziela() {
++		int y = 7;
++		for(int x=1;x<8;x++){
++			y++;
++			if(x>4){
++				System.out.print(++y + " ");
++			}
++			if(y>14){
++				System.out.println(" x = " + x);
++				break;	
++			}
++		}
++		
++	}
++}
