@@ -3,7 +3,8 @@ package hfj.r05;
 public class RzutowanieWartosciTypowPodstawowych {
 
 	public static void main(String[] args) {
-		long y = 42;
-                // int x = y; // blad kompilacji - Type mismatch: cannot convert from long to int
-	}
+	long y = 40002; // ta liczba przekracza zakres 16-bitowych wartosci
+                        // typu short}
+        short x = (short) y; // x ma wartosc -25534
+        System.out.println(x);
 }
