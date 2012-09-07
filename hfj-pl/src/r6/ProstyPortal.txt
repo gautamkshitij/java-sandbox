@@ -1,0 +1,32 @@
+
+// oryginalny kod przygotowawczy metody sprawd (klasa ProstyPortal)
+
+POWTORZ dla kazdej z komorek tablicy typu int
+
+	// POROWNAJ pole wskazane przez gracza z polami polozenia
+	
+	JESLI uzytkownik trafil 
+	
+		INKREMENTUJ ilosc trafien
+		
+		// SPRAWDZ czy byla to ostatnia komorka portalu
+		
+		JESLI ilosc trafien jest rowna 3
+		
+			ZWROC wynik "zatopiony"
+			
+		W PRZECIWNYM WYPADKU (jesli portal nie zostal zatopiony)
+		
+			ZWROC WYNIK TRAFIONY
+		
+		KONIEC JESLI
+		
+	W PRZECIWNYM RAZIE
+	
+		pole wskazane przez uzytkownika nie jest zajmowane przez Portal
+		
+		ZWROC wynik "pudlo"
+	
+	KONIEC JESLI
+	
+KONIEC POWTORZ
