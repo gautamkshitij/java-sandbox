@@ -1,9 +1,0 @@
-package hfj.r01;
-
-public class P032MojaPierwszaAplikacja {
-
-	public static void main(String args[]){
-		System.out.println("Hello Java");
-		System.out.println("Hello Lucas");
-	}
-}
