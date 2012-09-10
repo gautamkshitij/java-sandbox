@@ -1,17 +1,17 @@
 
-// oryginalny kod przygotowawczy metody sprawd (klasa ProstyPortal)
+// pseudokod jaki chcielibysmy uzyskac
 
-POWTORZ dla kazdej z komorek tablicy typu int
+POWTORZ dla kazdej pozostalej komorki tablicy typu int
 
 	// POROWNAJ pole wskazane przez gracza z polami polozenia
 	
 	JESLI uzytkownik trafil 
 	
-		INKREMENTUJ ilosc trafien
+		USUN te komorke z tablicy
 		
 		// SPRAWDZ czy byla to ostatnia komorka portalu
 		
-		JESLI ilosc trafien jest rowna 3
+		JESLI tablica jest pusta
 		
 			ZWROC wynik "zatopiony"
 			
