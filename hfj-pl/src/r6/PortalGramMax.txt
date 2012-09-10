@@ -1,0 +1,6 @@
+klasa gry
+=========
+
+- tworzy obiekty Portal
+- pobiera dane wprowadzone przez gracza i prowadzi gre az do momentu, 
+gdy wszystkie Portale zostana zatopione

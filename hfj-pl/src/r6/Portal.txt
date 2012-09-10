@@ -1,0 +1,5 @@
+Obiekty Portal
+==============
+
+Obiekty Portal znaja swoja nazwe, polozenie i wiedza jak sprawdzic 
+czy uzytkownik trafi w zajmowane przez nie pole

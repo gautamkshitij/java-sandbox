@@ -1,0 +1,5 @@
+kod gotowy do uzycia
+====================
+
+Wie jak pobierac dane wprowadzane przez gracza w wierszu polecen i okreslic 
+polozenie Portali.
