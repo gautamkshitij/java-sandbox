@@ -1,6 +1,11 @@
-klasa gry
-=========
+kod przygotowawczy klasy PortalGraMax
+=====================================
 
-- tworzy obiekty Portal
-- pobiera dane wprowadzone przez gracza i prowadzi gre az do momentu, 
-gdy wszystkie Portale zostana zatopione
+ZADEKLARUJ i utworz skladowa typu PomocnikGry o nazwie pomocnik
+
+ZADEKLARUJ i utworz skladowa typu ArrayList o nazwie listaPortali, w ktorej 
+bedzie przechowywana lista portali (poczatkowo beda tworzone trzy portale)
+
+ZADEKLARUJ zmienna typu int sluzaca do przechowywania ilosci ruchow 
+wykonywanych przez gracza (abysmy pod koniec rozgrywki mogli podac uzyskany 
+wynik). Nadaj zmiennej nazwe iloscRuchow i przypisz jej poczatkowa wartosc 0.
