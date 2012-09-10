@@ -1,0 +1,13 @@
+ArrayList - podstawowe (okrojone) API klasy
+===========================================
+
+- add(Object o) : dodaje przekazany obiekt do tablicy
+- remove(int indeks) : usuwa z tablicy obiekt okreslony przez parametr indeks
+- contains(Object o) : zwraca "true" jesli przekazany obiekt (jako parametr) 
+						odpowiada jednemu z obiektow znajdujacych sie w tablicy
+- isEmpty() : zwraca wartosc "true" jesli tablica jest pusta
+- indexOf(Object o) : zwraca indeks obiektu przekazanego jako parametr 
+					lub wartosc -1
+- size() : zwraca ilosc elementow aktualnie znajdujacych sie w tablicy
+- get(int indeks) : zwraca obiekt, ktory aktualnie znajduje sie w elemencie  
+					tablicy okreslonym za pomoca podanego indeksu
