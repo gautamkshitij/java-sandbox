@@ -9,3 +9,58 @@ bedzie przechowywana lista portali (poczatkowo beda tworzone trzy portale)
 ZADEKLARUJ zmienna typu int sluzaca do przechowywania ilosci ruchow 
 wykonywanych przez gracza (abysmy pod koniec rozgrywki mogli podac uzyskany 
 wynik). Nadaj zmiennej nazwe iloscRuchow i przypisz jej poczatkowa wartosc 0.
+
+METODA: void rozpocznjGre()
+	
+	POWTARZAJ dopoki intnieje jakis obiekt Portal
+	
+		POBIERZ ruch gracza poprzez wywolanie metody pobierzDaneWejsciowe()
+		
+		PRZETWORZ ruch poslugujac sie metoda sprawdzRuchGracza()
+		
+	KONIEC POWTARZAJ
+
+KONIEC METODY
+
+METODA: void sprawdzRuchGracza(String ruch)
+
+	// sprawdzamy czy ktorys z Portali zostal trafiony (a moze tez zatopiony)
+	
+	IKREMENTUJ liczbe ruchow przechowywanych w skladowej ilosc ruchow
+	
+	PRZYPISZ zmiennej lokalnej wynik (typu String) wartosc "pudlo" zakladajac, 
+	ze gracz chybi
+	
+	POWTORZ dla kazdego Portalu w tablicy listaPortali
+	
+		PRZETWORZ pole wskazane przez gracza, wywolujac metode sprawdz()
+		obiektu Portal
+		
+		PRZYPISZ zmiennej wartosc "trafiony" lub "zatopiony", 
+		jesli to bedzie konieczne
+		
+		JESLI wynik ma wartosc "zatopiony", 
+			
+			TO usun Portal z tablicy listaPortali
+			
+	KONIEC POWTORZ
+	
+	WYSWIETL wynik na ekranie;
+	
+KONIEC METODY
+
+METODA: void zakonczGre()
+	
+	WYSWIETL ogolny komunikat o zakonczeniu gry, a nastepnie
+	
+	JEZELI liczba ruchow wykonanych przez gracza nie jest duza
+		
+		WYSWIETL komunikat z gratulacjami
+		
+	W PRZECIWNYM RAZIE 
+	
+		WYSWIETL obrazliwy komunikat
+		
+	KONIEC JEZELI
+	
+KONIEC METODY
