@@ -14,9 +14,9 @@ public class PortalGraMax {
 		Portal pierwszy = new Portal();
 		pierwszy.setNazwa("onet.pl");
 		Portal drugi = new Portal();
-		drugi.setName("wp.pl");
+		drugi.setNazwa("wp.pl");
 		Portal trzeci = new Portal();
-		trzeci.setName("go2.com");
+		trzeci.setNazwa("go2.com");
 		listaPortali.add(pierwszy);
 		listaPortali.add(drugi);
 		listaPortali.add(trzeci);
