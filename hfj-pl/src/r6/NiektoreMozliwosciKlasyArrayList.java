@@ -30,5 +30,9 @@ public class NiektoreMozliwosciKlasyArrayList {
 	}
 }
 class Jajko {
+
+	public boolean czyDobryTyp() {
+		return false;
+	}
 	// dummy class
 }
