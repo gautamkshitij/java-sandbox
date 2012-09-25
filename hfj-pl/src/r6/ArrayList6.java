@@ -7,9 +7,6 @@ public class ArrayList6 {
 	public static void main(String[] args){
 
 		ArrayList<Object> a = new ArrayList<Object>();
-		if(a.contains("dwa")){
-			a.add("2.2");
-		}
 		a.add(0,"zero");
 		a.add(1,"jeden");
 		a.add(2,"dwa");
@@ -24,6 +21,9 @@ public class ArrayList6 {
 			a.add(4, "4.2");
 		}
 		wyswietlWszystko(a);
+		if(a.contains("dwa")){
+			a.add("2.2");
+		}
 		wyswietlWszystko(a);
 	}
 	
