@@ -1,0 +1,13 @@
+ile skladowych ma klasa Chirurg? => 1
+
+Ile skladowych ma klasa Lekarz? => 1
+
+Ile metod ma klasa Lekarz? => 1
+
+Ile metod ma klasa Chirurg? => 2
+
+Ile metod ma klasa LekarzRodzinny? => 2
+
+Czy LekarzRodzinny moze korzystac z metody leczPacjenta()? => Tak
+
+Czy LekarzRodzinny moze korzystac z metody zrobNaciecie()? => Nie
