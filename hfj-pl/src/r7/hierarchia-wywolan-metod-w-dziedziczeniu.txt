@@ -1,0 +1,7 @@
+Hierarhia dziedziczenia - kolejnosc wywolania metod w klasach dziedziczacych 
+po sobie.
+
+JVM w pierwszej kolejnosci sprawdza klasy polozone najnizej w hierarhii 
+dziedziczenia. Jesli poszukiwana metoda nie zostanie w niej odnaleziona, 
+to wirtualna maszyna Javy bedzie przechodzic do kolejnych klas zajmujacych 
+wyzsze miejsca w drzewie hierarchii az do momentu odszukania metody.
