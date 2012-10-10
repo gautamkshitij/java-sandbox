@@ -1,0 +1,9 @@
+
+
+klasa					klasa bazowa				klasa potomna
+-----------------------------------------------------------------------------------------------
+muzyk					---							gwiazda rocka, basista, pianista koncertowy
+gwiazda rocka			muzyk						---
+fan 					---							---
+basista					muzyk						---
+pianista koncertowy		myzyk						---
