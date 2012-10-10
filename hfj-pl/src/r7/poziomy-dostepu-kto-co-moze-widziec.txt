@@ -1,0 +1,13 @@
+
+mamy 4 poziomy dostepu:
+- prywatny (private)
+- domyslny
+- chroniony (protected)
+- publiczny (pubic)
+
+----
+
+- skladowe i metody publiczne SA dziedziczone
+- skladowe i metody prywatne NIE SA dziedziczone
+
+----
