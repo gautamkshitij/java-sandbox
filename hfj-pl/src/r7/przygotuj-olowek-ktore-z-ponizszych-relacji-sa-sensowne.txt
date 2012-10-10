@@ -1,0 +1,12 @@
+
+	Piekarnik rozszerza Kuchnie
++	Gitara rozszerza Instrument
+	Osoba rozszerza Pracownika
+	Ferrari rozszerza Silnik
++	JajkoSadzone rozszerza Pozywienie
+	Hart rozszerza ZwierzatkoDomowe
+	Pojemnik rozszerza Sloik
+	Metal rozszerza Tytan
++	PapaDance rozszerza Kapela
+	Blondynka rozszerza Madrala
+	Napoj rozszerza Martini	
