@@ -1,0 +1,7 @@
+1. poszukaj obiektow majacych wspolne atrybuty i zachowania
+2. zaprojektuj klase reprezentujaca wspolny stan oraz zachowanie obiektow
+3. okresl czy klasy potomne musza miec zachowanie (implementacje metod) 
+charakterystyczne dla swojego typu
+4. poszukaj dalszych moýliwoæci okreælenia kolejnych poziom—w abstrakcji, 
+wyszukaj klasy potomne, ktore moga mies wspolne zachowania.
+5. Dokonczenie hierarhii klas
