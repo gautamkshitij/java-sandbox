@@ -1,0 +1,16 @@
+
+UZYWAJ dziedziczenia, gdy jedna z klas jest bardziej szczegolowym typem 
+klasy bazowej. Na przyklad Brzoza jest szczegolnym typem Drzewa, zatem 
+ma sens, aby klasa Brzoza rozszerzala (extends) klase Drzewo.
+
+UZYWAJ dziedziczenia w sytuacjach, gdy dysponujesz operacjami (czyli zaimplementowanym
+kodem), ktore powinny byc wspoluzytkowane przez wiele klas tego samego 
+typu ogolnego.
+
+NIE UZYWAJ dziedziczenia tylko i wylacznie po to, aby ponownie wykorzystac 
+kod zdefiniowany w innej klasie, jesli relacja pomiedzy klasa bazowa a potomna 
+narusza ktoras z powyzszych regul.
+
+NIE UZYWAJ dziedziczenia jesli klasa potomna i bazowa nie spelniaja testu 
+relacji JEST. Zawsze sie zastanow, czy klasa potomna jest bardziej wyspecjalizowanym 
+lub szczegolowym typem klasy bazowej.
