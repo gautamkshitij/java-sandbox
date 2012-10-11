@@ -1,0 +1,10 @@
+
+Istniejà 3 czynniki, które uniemo˝liwiajà tworzenie klas potomnych: 
+
+1. Nie mozemy rozszerzac/dziedziczyc po klasach 
+
+2. Nie mozna rozszerzac (tworzyc klas potomnych) klas, które zosta∏y zadeklarowane 
+jako zosta∏y zadeklarowane jako sfinalizowane (modyfikator final umieszczony przed 
+deklaracjà klasy, np. final class Test)
+
+3. Nie mo˝na rozszerzaç klasy, która ma wy∏àcznie prywatne konstruktory.
