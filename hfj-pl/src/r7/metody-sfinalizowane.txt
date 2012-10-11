@@ -1,0 +1,9 @@
+
+Metody sfinalizowane
+====================
+
+Jeæli chcesz mie pewnoæ, ıe nikt nie przes¸oni twojej wersji metody 
+oznacz jˆ jako sfinalizowanˆ uıywajˆc modyfikatora final. 
+
+Jeæli chcesz mie pewnoæ, ıe ıadna z metod nie zostanie przes¸oni«ta, 
+sfinalizuj ca¸ˆ klas«. 
